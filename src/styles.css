@@ -1,0 +1,29 @@
+/* Основной контейнер */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+/* Центрирование контента */
+.MuiContainer-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh; /* Минимальная высота для центрирования по вертикали */
+}
+/* Сайдбар */
+.MuiDrawer-paper {
+  z-index: 1; /* Убедитесь, что сайдбар находится поверх других элементов */
+}
+
+/* Основной контейнер */
+main {
+  margin-left: 240px; /* Отступ для сайдбара */
+  margin-top: 64px; /* Отступ для хедера */
+  padding: 24px;
+}
